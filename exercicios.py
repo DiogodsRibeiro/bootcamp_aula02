@@ -29,12 +29,12 @@ import math
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
-first_number = float(input(f'Type a number: '))
-second_number = float(input(f'type another number: '))
+# first_number = float(input(f'Type a number: '))
+# second_number = float(input(f'type another number: '))
 
-result = int(first_number * second_number)
+# result = int(first_number * second_number)
 
-print(f'O resultado da multiplicação é: {result}')
+# print(f'O resultado da multiplicação é: {result}')
 
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
@@ -53,6 +53,12 @@ print(f'O resultado da multiplicação é: {result}')
 
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+# first_number = int(input(f'Type a number: '))
+
+# Result = first_number ** 2
+
+# print(f'este numero ao quadrado é: {Result}')
 
 # #### Números de Ponto Flutuante (`float`)
 
