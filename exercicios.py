@@ -63,6 +63,17 @@ import math
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+# try:
+#     first_number = float(input(f'Type a float number: '))
+#     second_number = float(input(f'Type a second float number: '))
+
+#     Result = first_number + second_number
+
+#     print(f'O resultado dos dois numeros flutuantes é: {Result}')
+# except ValueError:
+#     print(f'comma its not allowed')    
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
