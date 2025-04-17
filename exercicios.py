@@ -17,17 +17,26 @@ import math
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-try:
-    number_user = int(input('Digite um numero inteiro: '))
+# try:
+#     number_user = int(input('Digite um numero inteiro: '))
 
-    resto = number_user % 5
+#     resto = number_user % 5
 
-    print(f'O resto da divisao do {number_user} é {resto}')
-except ValueError:
-    print('Please, type a int number')
+#     print(f'O resto da divisao do {number_user} é {resto}')
+# except ValueError:
+#     print('Please, type a int number')
 
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+first_number = float(input(f'Type a number: '))
+second_number = float(input(f'type another number: '))
+
+result = int(first_number * second_number)
+
+print(f'O resultado da multiplicação é: {result}')
+
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
 # try:
