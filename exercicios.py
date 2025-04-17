@@ -4,18 +4,29 @@ import math
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-try: 
-    first_number = int(input('Digite um número:'))
-    second_number = int(input('Digite outro numero: '))
+# try: 
+#     first_number = int(input('Digite um número:'))
+#     second_number = int(input('Digite outro numero: '))
 
-    Resultado = first_number + second_number
-    print(f'O valor total é: {Resultado}')
-except ValueError:
-    print('Please, type a valid number!')cl
+#     Resultado = first_number + second_number
+#     print(f'O valor total é: {Resultado}')
+# except ValueError:
+#     print('Please, type a valid number!')
 
 
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+
+try:
+    number_user = int(input('Digite um numero inteiro: '))
+
+    resto = number_user % 5
+
+    print(f'O resto da divisao do {number_user} é {resto}')
+except ValueError:
+    print('Please, type a int number')
+
+
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
